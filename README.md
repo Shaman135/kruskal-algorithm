@@ -3,6 +3,7 @@ Simple implementation of Kruskal's minimum spanning tree algorithm. Findes spann
 
 ### Input
 First line - number of vertices and edges
+
 Rest of the file - begging vertex, ending vertex and edge weight
 
 ### Output
