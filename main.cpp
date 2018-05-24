@@ -75,6 +75,7 @@ int main()
             while(ss >> e->beg >> e->end >> e->weight){
                 adjacencyList.push_back(*e);
             }
+            delete e;
     }
     myFile.close();
 
@@ -93,6 +94,8 @@ int main()
     }
 
     myFile.close();
+    spanningTree.clear();
+    spanningTree.shrink_to_fit();
 
     return 0;
 }
